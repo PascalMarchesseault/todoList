@@ -139,6 +139,6 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
-app.listen(5000, function () {
-  console.log("Server started on port 5000");
+app.listen(10000, function () {
+  console.log("Server started on port 10000");
 });
